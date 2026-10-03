@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+tavily-python
+tensorflow
+numpy
+python-dotenv
+langchain-google-genai
+google-generativeai
