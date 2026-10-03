@@ -5,7 +5,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from tools.Pneumonia_tool import predict_pneumonia
 from tools.image_analyis import analyze_pneumonia_image
 from tools.web_search import pneumonia_web_search
-from tools.red_flag_tool import check_red_flags
 
 import os
 
@@ -15,8 +14,7 @@ load_dotenv()
 tools = [
     predict_pneumonia,
     analyze_pneumonia_image,
-    pneumonia_web_search,
-    check_red_flags
+    pneumonia_web_search
 ]
 
 def get_llm(

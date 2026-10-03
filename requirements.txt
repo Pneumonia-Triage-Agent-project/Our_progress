@@ -1,10 +1,4 @@
-streamlit
-langchain
-langchain-core
-langchain-community
-tavily-python
-tensorflow
-numpy
-python-dotenv
-langchain-google-genai
-google-generativeai
+langchain==1.4.2
+langchain-huggingface==1.2.2
+langchain-community==0.4.2
+sentence-transformers==6.1.0
